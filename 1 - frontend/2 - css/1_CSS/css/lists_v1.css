@@ -118,3 +118,23 @@ h2 {
     background-color: rgba(90, 120, 20, 0.2);
     color: #000;
 }
+
+/* BG image */
+.bg-image {
+    background-image: url("../img/desenho.png");
+    padding: 10px;
+    color: #fff;
+}
+
+/* Centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/desenho.png);
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
