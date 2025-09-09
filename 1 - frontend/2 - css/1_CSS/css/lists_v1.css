@@ -268,13 +268,44 @@ h2 {
     height: 100px;
 }
 
-/*  */
+/* Text align */
+.text-aligned {
+    text-align: right;
+}
 
-/*  */
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
 
-/*  */
+/* Text decoration */
+.underline {
+    text-decoration: underline;
+}
 
-/*  */
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: red;
+}
+
+/* Text transform */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* letter spacing */
+.spacing {
+    letter-spacing: 5px;
+}
 
 /*  */
 
